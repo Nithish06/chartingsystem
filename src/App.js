@@ -101,7 +101,7 @@ function App() {
           <Bar options={chartOptions} data={chartData} />
         </div>
       ) : (
-        <div>Loading...</div>
+        <div>Loading results</div>
       )}
     </div>
   );
